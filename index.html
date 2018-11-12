@@ -1,127 +1,121 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 		<style type="text/css">
-			body{
-				margin: 0px;
-			}
-			.bg{
-				position: relative;
-				display: flex;	
-				margin-top: 50px;
-				width: 1080px;
-				height: 1080px;
-			}
-		    .bg-triangle-topleft {
-		    	position: absolute;
-				width: 0;
-				height: 0;
-				border-top: 300px solid #355e93;
-				border-right: 300px solid transparent; 
-		    }
+		body{
+			margin: 0px;
+		}
+		.bg{
+			position: relative;
+			display: flex;	
+			margin-top: 50px;
+			width: 1080px;
+			height: 1080px;
+		}
+		.bg-triangle-topleft {
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-top: 300px solid #4f2814;
+			border-right: 300px solid transparent; 
+		}
 
-		    .bg-triangle-botomright {
-		    	position: absolute;
-		    	bottom: 0px; right: 0px;
-				width: 0;
-				height: 0;
-				border-bottom: 1000px solid rgba(53, 94, 147,0.8);
-				border-left: 1000px solid transparent;
-		    }
+		.bg-triangle-botomright {
+			position: absolute;
+			bottom: 0px; right: 0px;
+			width: 0;
+			height: 0;
+			border-bottom: 1000px solid rgba(79, 40, 20,0.8);
+			border-left: 1000px solid transparent;
+		}
 
-			.bg-hexagon{
-				position: absolute;
-				bottom: 0px;
-				right: 0px;
-				opacity: .15;
-				transform: rotate(180deg);
-				width: 85%;
-				height: 85%;
-			}
-			.bg-logo {
-				position: absolute;
-				top: 30px;
-				left: 30px;
-			}
-			.bg-trapezoid {
-				position: absolute;
-				bottom: 45px;
-				right: 0px;
-				border-bottom: 350px solid rgba(5,3,33,0.5);
-				border-left: 380px solid transparent;
-				height: 0;
-				width: 530px;
-		    }
+		.bg-hexagon{
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			opacity: .15;
+			transform: rotate(180deg);
+			width: 85%;
+			height: 85%;
+		}
+		.bg-logo {
+			position: absolute;
+			top: 30px;
+			left: 30px;
+		}
+		.bg-trapezoid {
+			position: absolute;
+			bottom: 45px;
+			right: 0px;
+			border-bottom: 350px solid rgba(5,3,33,0.5);
+			border-left: 380px solid transparent;
+			height: 0;
+			width: 530px;
+		}
 
-		    h1 {
-		    	position: absolute;
-		    	bottom: 320px;
-		    	right:5px;
-		    	text-align: right;
-		    	color: white;
-		    	font-weight: bold;
-		    	font-family: "Agency FB";
-		    	font-size: 35px;
-		    }
+		h1 {
+			position: absolute;
+			bottom: 320px;
+			right:5px;
+			text-align: right;
+			color: white;
+			font-weight: bold;
+			font-family: "Agency FB";
+			font-size: 33px;
+		}
 
-			pre{
-				position: absolute;
-				bottom: 0px;
-				right: 10px;
-				text-align: right;
-				padding-bottom: 15px;
-				font-size: 34px;
-				font-family: "Agency FB";
-				font-weight: bold;
-				color: white;
-			}
+		pre{
+			position: absolute;
+			bottom: 0px;
+			right: 10px;
+			text-align: right;
+			padding-bottom: 15px;
+			font-size: 34px;
+			font-family: "Agency FB";
+			font-weight: bold;
+			color: white;
+		}
 
-		    .image{
-		    	position: absolute;	 
-		    	width: 100%;
-		    	height: 1080px;
-		    }
+		.image{
+			position: absolute;	 
+			width: 100%;
+			height: 1080px;
+		}
 
-		</style>
-
-		<script type="text/javascript">
-			html2canvas(document.container).then(function(canvas) {
-			    document.container.appendChild(canvas);
-			});
-		</script>
-
-		<title></title>
-	</head>
-	<body>
-		<div class="bg">
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="bg" id="widget">
 		
 		<!-- image -->
-			<img class="image" src="qn-bg-9-11-18.jpg">
+		<img class="image" src="qn-bg-12-11-18.jpg">
 		<!-- image -->
 
-			<div class="bg-triangle-topleft">
-			</div>
-			<div class="bg-triangle-botomright">
-			</div>
-			<img class="bg-hexagon" src="qrypto-news-bg.png">
-			<img class="bg-logo" src="qrypto-logo-white.png">
-			<div class="bg-trapezoid">
-				
-			</div>
-				
-		<!-- text -->
-	<h1><u>South Koreans Keeping Zcash (ZEC) Climbing</u></h1>	
-	<pre>Zcash keeps growing and ZEC is getting loaded
-	up by South Koreans. They are loading up on ZEC this 
-	morning. Maybe all the recent talk of zk-SNARKs has 
-	been revived interest in this privacy-centric altcoin Zcash 
-	which has made 5.5% to take ZEC to $135. Trade volume has 
-	jumped from $110 million to $170 million with the majority of that,
-	over 80%, on Bithumb in KRW at the moment.		   			  </pre>
-
-	    <!--text-->		
-		
+		<div class="bg-triangle-topleft">
 		</div>
-	</body>
-	</html>
+		<div class="bg-triangle-botomright">
+		</div>
+		<img class="bg-hexagon" src="qrypto-news-bg.png">
+		<img class="bg-logo" src="qrypto-logo-white.png">
+		<div class="bg-trapezoid">
+
+		</div>
+
+		<!-- text -->
+		<h1><u>Major US Museum Now accepts Crypto Payments</u></h1>	
+		<pre>Great Lakes Science Center, a large museum &
+			educational facility in downtown Cleveland, Ohio, 
+			will begin accepting Bitcoin as a payment beginning 
+			November 13. Museum of the Coastal Bend in Texas and 
+			St. Petersburg Museum of History have been accepting BTC 
+			for quite some time, and Great Lakes Science Center is the 
+			third museum in the US to accept cryptocurrencies as a payment </pre>
+
+		<!--text-->		
+		
+	</div>
+</body>
+</html>
